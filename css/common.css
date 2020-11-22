@@ -1,0 +1,33 @@
+/* 共同特征 */
+body {
+  background-color: #f4f4f4;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url('./font/iconfont.eot?t=1604994621409');
+  /* IE9 */
+  src: url('./font/iconfont.eot?t=1604994621409#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./font/data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPcAAsAAAAACBwAAAOPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDFAqDWIMwATYCJAMQCwoABCAFhG0HTRsfB1GU6U1L9gW2DXsiCK0BBSSgIIIOCMApRIdtfVygWwUA/LgIorF09m4fUSVRQAXygBZRVdWIOmBfY6tY2Pp6NiLz+ldl5i+ELCoR3TAZfW1+Zo1K6NBJndCx3WMHdlfeu5+/5mWtBQa4ia4xUuR93Ykn8KIAXxheAuf/t9Ui6bE/7p02gQKZz77l8kdj0hqboi7AaJ53AY0xrE1WFCC3yO4KxCJPE+haE0V2rqSqCdhI5qRAPDHoVMAmo5QNmaEtNCtWpnjPUru8KI94F3w//jsWNhSNypx56XGxFuTt/pp8yTeftuCeR9L44+nBr6PiAJJ4VGm8o0bBA6quelg6hKYUyq/pl/x2xsQDJevkr/+PV1SiqZnpfXACS+tZ8R2E4FcWQuFXvtwNUlPR7h1+jR+UvvKMhqLR961ORt1Mhv1oe6sqqOuwfKnntjs88vCBB9JrC9UEyTzQux9HNI/vBo/CCDYirUTNiE3M7fOXyHxJSwrL5+eS29ycRnKVLwLMamp5skykbTBbKketO+ODdq8Eit7aWNdQVUHxVK/ZErbJJX+EG+SGwUHXV8dQx9fJemJKYjjwcOuRGyDxe3zCVd9nJ1cnNmSQ5OXPBv/JO/dV/Kj0l11+uM67Bt+/y9mZGVaOUIy5oqT3XeTzc0Q4TpNPfjydxOJCVfJJYkvD4ZvVJeD7yaG8odz/fWLiQ9uYs0+WmAmk8f1/6n5be3iYPpx6edEHmL2booTOh3watQH/mMXG+l3WlZVZWjqKumAgEAHsX1VFjOoznZpnCf7rKBd3j/wVzll/bXoXV/fzVZdN7fsSwFKBtgKY/xf5wIrUhKYqUxE5hH5SOsUSFHR18feyYerTGIoF2E9oZ/g8FC2rULWtk5N+ABp6TkBT20no2lO6vmeGYER2sGscQRg7gGLoO1RjT+Skf4SGpd/QNA4Gum6E+449m2GwKyRIRZEWqruhQSPw2NZQuzCzAenMrIqkhQGzBRHJ4IHxMXH5SCniERljjtShS6AUQ0wEDpag8xDLClAkghFpaIyeUjEjNhZXvSlGI3DAzlkEokIhWpBaN8hAQ8DDXm3KrvD5BoiOGUuFNJRVeVsghMTQPRQvRhyAXCrjQWXXco2kg04CisIgjBBwoBIUj7BYgiYTq4cZIRpUDH0PvyhDrFUNQ2Ux8yu4J9wGXeagjBI1Mho65+6Kpki6KyKqiOcMCQAAAA==') format('woff2'),
+    url('./font/iconfont.woff?t=1604994621409') format('woff'),
+    url('./font/iconfont.ttf?t=1604994621409') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('./font/iconfont.svg?t=1604994621409#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+}
